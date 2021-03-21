@@ -1,4 +1,4 @@
 使用アセット：
 Frank climax's Slash pack
 
-競合する？
+2021/03/21 GitHubFlowを作ってみた。更新テスト。

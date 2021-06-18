@@ -75,3 +75,7 @@ DerivedDataCache/*
 
 # Asset files
 Content/Assets/
+
+# Plugin files
+Plugins/KawaiiPhysics/
+Plugins/SteamCore/

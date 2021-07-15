@@ -8,7 +8,7 @@
 /**
  * 
  */
-UCLASS()
+UCLASS(Blueprintable, meta = (BlueprintSpawnableComponent))
 class YINYANGPROJECT_API UCPP_CustomSpringArmComponent : public USpringArmComponent
 {
 	GENERATED_BODY()
@@ -16,4 +16,10 @@ class YINYANGPROJECT_API UCPP_CustomSpringArmComponent : public USpringArmCompon
     public:
     UFUNCTION()
     void SetTargetArmLength(float _Length) { TargetArmLength = _Length; }
+
+    UFUNCTION()        
+        void SetSocketOffset(FVector _Offset) { SocketOffset = _Offset; }
+
+    UFUNCTION()
+    void SetUsePawnControlRotation(bool _Value) { bUsePawnControlRotation = _Value; }
 };

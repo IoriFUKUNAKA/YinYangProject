@@ -18,7 +18,7 @@ class YINYANGPROJECT_API UCPP_CustomSpringArmComponent : public USpringArmCompon
     void SetTargetArmLength(float _Length) { TargetArmLength = _Length; }
 
     UFUNCTION()        
-        void SetSocketOffset(FVector _Offset) { SocketOffset = _Offset; }
+    void SetSocketOffset(FVector _Offset) { SocketOffset = _Offset; }
 
     UFUNCTION()
     void SetUsePawnControlRotation(bool _Value) { bUsePawnControlRotation = _Value; }

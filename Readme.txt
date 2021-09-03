@@ -1,7 +1,8 @@
 使用アセット：
 Frank climax's Slash pack
-StateMachineComponent(https://github.com/alwei/StateMachineExamples)
+Germanshepherddog(https://www.cgtrader.com/items/2659139/download-page)
 tToon(https://github.com/shop-0761/tToon)
+
 
 使用フォント：
 装甲明朝(https://booth.pm/ja/items/1028555)

@@ -9,8 +9,8 @@ void UFL_Math::GetDistancePointToSegment(FVector2D startPos, FVector2D endPos, F
 	float a = vec.X;
 	float b = vec.Y;
 
-	float a2 = FMath::Pow(a, 2);
-	float b2 = FMath::Pow(b, 2);
+	float a2 = FMath::Square(a);
+	float b2 = FMath::Square(b);
 
 	float r2 = a2 + b2;
 
@@ -24,7 +24,7 @@ void UFL_Math::GetDistancePointToSegment(FVector2D startPos, FVector2D endPos, F
 	{
 		in = true;
 		float f1 = a * (startPos.Y - point.Y) - b * (startPos.X - point.X);
-		distance = FMath::Pow(f1, 2) / r2;
+		distance = FMath::Sqrt(FMath::Square(f1) / r2);
 	}
 }
 

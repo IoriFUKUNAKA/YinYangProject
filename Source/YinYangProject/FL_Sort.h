@@ -15,7 +15,7 @@ class YINYANGPROJECT_API UFL_Sort : public UBlueprintFunctionLibrary
 	GENERATED_BODY()
 	
 	UFUNCTION(BlueprintCallable, Category = "Sort")
-	static void  StandardSortFloat(UPARAM(ref) TArray<float>& SortedArray);
+	static void StandardSortFloat(UPARAM(ref) TArray<float>& SortedArray);
 
 	UFUNCTION(BlueprintCallable, Category = "Sort")
 	static void StandardSortDistanceVec2(UPARAM(ref) TArray<FVector2D>& SortedArray, FVector2D pivot);

@@ -2,13 +2,13 @@
 
 
 #include "FL_Sort.h"
-#include <algorithm>
 
-TArray<float> UFL_Sort::StandardSortFloat(TArray<float> SortedArray)
+void UFL_Sort::StandardSortFloat(UPARAM(ref) TArray<float>& SortedArray)
 {
-	auto tmp = SortedArray;
+	SortedArray.Sort([](const float a, const float b) { return a < b; });
+}
 
-	tmp.Sort([](const float a, const float b) { return a < b; });
-
-	return tmp;
+void UFL_Sort::StandardSortDistanceVec2(UPARAM(ref) TArray<FVector2D>& SortedArray, FVector2D pivot)
+{
+	SortedArray.Sort([=](const FVector2D a, const FVector2D b) { return FVector2D::DistSquared(pivot, a) > FVector2D::DistSquared(pivot, b); });
 }

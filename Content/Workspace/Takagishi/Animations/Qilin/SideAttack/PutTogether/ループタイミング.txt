@@ -1,0 +1,23 @@
+ブレンドタイミング
+一回目20F　2回目19F　3回目18F
+
+
+A_Kirin_SideAttacｋ_1
+
+A_Kirin_SideAttacｋ_2
+
+A_Kirin_SideAttacｋ_3
+
+
+パターン１
+A_Kirin_SideAttacｋ_1
+
+パターン２
+A_Kirin_SideAttacｋ_1→A_Kirin_SideAttacｋ_2
+
+パターン３
+A_Kirin_SideAttacｋ_1→A_Kirin_SideAttacｋ_2→A_Kirin_SideAttacｋ_3
+
+ループ
+
+A_Kirin_SideAttacｋ_1→A_Kirin_SideAttacｋ_2→A_Kirin_SideAttacｋ_3→A_Kirin_SideAttacｋ_2→

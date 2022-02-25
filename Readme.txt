@@ -7,7 +7,6 @@ Controller Icon Pack (https://assetstore.unity.com/packages/2d/gui/icons/control
 
 使用フォント：
 源ノ明朝 (https://source.typekit.com/source-han-serif/jp/#get-the-fonts)
-装甲明朝 (https://booth.pm/ja/items/1028555)
 玉ねぎ楷書無料版 (https://booth.pm/ja/items/1948683)
 玉ねぎ楷書「激」無料版 (https://booth.pm/ja/items/2929647)
 
